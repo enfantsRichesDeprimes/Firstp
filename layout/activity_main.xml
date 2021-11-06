@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:background="@drawable/sign">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math"
+        android:textSize="20sp"
+        android:textColor="#83410E">
+    </TextView>
+
+    <EditText
+        android:id="@+id/mathcredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name1"
+        android:inputType="number"
+        android:maxLength="2">
+    </EditText>
+
+    <EditText
+        android:id="@+id/mathgrades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name2"
+        android:inputType="numberDecimal"
+        android:maxLength="3">
+    </EditText>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/English"
+        android:textSize="20sp"
+        android:textColor="#83410E">
+    </TextView>
+
+    <EditText
+        android:id="@+id/englishcredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name1"
+        android:inputType="number"
+        android:maxLength="2">
+    </EditText>
+
+    <EditText
+        android:id="@+id/englishgrades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name2"
+        android:inputType="numberDecimal"
+        android:maxLength="3">
+    </EditText>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cs"
+        android:textSize="20sp"
+        android:textColor="#83410E">
+    </TextView>
+
+    <EditText
+        android:id="@+id/cscredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name1"
+        android:inputType="number"
+        android:maxLength="2">
+    </EditText>
+
+    <EditText
+        android:id="@+id/csgrades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name2"
+        android:inputType="numberDecimal"
+        android:maxLength="3">
+    </EditText>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Chinese"
+        android:textSize="20sp"
+        android:textColor="#83410E">
+    </TextView>
+
+    <EditText
+        android:id="@+id/chinesecredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name1"
+        android:inputType="number"
+        android:maxLength="2">
+    </EditText>
+
+    <EditText
+        android:id="@+id/chinesegrades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name2"
+        android:inputType="numberDecimal"
+        android:maxLength="3">
+    </EditText>
+
+    <Button
+            android:id="@+id/Sure"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="105dp"
+            android:text="@string/sure"
+            android:textColor="#83410E"
+            android:background="@drawable/mybutton"
+            android:textSize="20sp">
+    </Button>
+</androidx.appcompat.widget.LinearLayoutCompat>

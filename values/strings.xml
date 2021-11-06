@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">成绩分析</string>
+    <string name="sure">确认</string>
+    <string name="name1">请输入学分</string>
+    <string name="name2">请输入成绩</string>
+    <string name="math">数学：</string>
+    <string name="number">成绩:</string>
+    <string name="grade">绩点:</string>
+    <string name="English">英语：</string>
+    <string name="cs">计算机：</string>
+    <string name="Chinese">语文：</string>
+    <string name="evaluate">成绩评估</string>
+    <string name="totalpoint">总绩点：</string>
+    <string name="totalscore">总学分：</string>
+    <string name="stability">稳定性：</string>
+    <string name="rate">综合评级：</string>
+    <string name="report">分析报告</string>
+    <string name="advice">建议：</string>
+</resources>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NextActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#10E1C9">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/back">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/evaluate"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:textColor="#83410E">
+        </TextView>
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/report">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/mathRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/math"
+            android:textSize="35sp"
+            android:textColor="#83410E">
+        </TextView>
+
+        <TextView
+            android:id="@+id/mathCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/grade"
+            android:textSize="22sp"
+            android:textColor="#83410E">
+        </TextView>
+
+        <TextView
+            android:id="@+id/mathgrades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number"
+            android:textSize="22sp"
+            android:textColor="#FBAEFA">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/englishRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/English"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="#83410E">
+        </TextView>
+
+        <TextView
+            android:id="@+id/englishCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="#FBAEFA">
+        </TextView>
+
+        <TextView
+            android:id="@+id/englishgrades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number"
+            android:textColor="#83410E"
+            android:textSize="22sp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/csRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/cs"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="#83410E">
+        </TextView>
+
+        <TextView
+            android:id="@+id/csCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="#FBAEFA">
+        </TextView>
+
+        <TextView
+            android:id="@+id/csgrades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number"
+            android:textSize="22sp"
+            android:textColor="#83410E">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/chineseRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/Chinese"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="#83410E">
+        </TextView>
+
+        <TextView
+            android:id="@+id/chineseCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grade"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="#83410E">
+        </TextView>
+
+        <TextView
+            android:id="@+id/chinesegrades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number"
+            android:textSize="22sp"
+            android:textColor="#FBAEFA">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="376dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weightedAverage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#83410E"
+                android:background="@mipmap/round">
+            </TextView>
+
+            <TextView
+                android:id="@+id/totalCredit"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="@string/totalpoint"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#FBAEFA">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/totalpoints"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="@string/totalscore"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#83410E">
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="376dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:src="@drawable/stability">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/stability"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="@string/stability"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#83410E">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:src="@drawable/column">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/comprehensive"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="@string/rate"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#FBAEFA">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
